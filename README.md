@@ -1,1 +1,2 @@
-# sort_folders_cli
+#Run command 
+python3 sort.py pathtofolder       
