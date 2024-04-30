@@ -92,4 +92,3 @@ def sort(path):
             new_path = os.path.join(unknownformat_folder_path, file)
             os.rename(full_path, new_path)
 
-    # for root, dirs, files in os.walk(path):
