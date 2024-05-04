@@ -1,4 +1,4 @@
-image_extensions = [
+image_extensions = tuple([
     '.jpg', '.jpeg', '.jpe', '.jif', '.jfif', '.jfi',  # JPEG
     '.png',                                             # PNG
     '.gif',                                             # GIF
@@ -14,12 +14,12 @@ image_extensions = [
     '.pnm', '.sr', '.ras', '.jp2', '.j2k', '.jpf',      # PNM, SR, RAS, JP2, J2K, JPF
     '.jpx', '.jpm', '.mj2',                             # JPX, JPM, MJ2
     '.heic', '.heif'                                    # HEIC, HEIF
-]
+])
 
-documents_extensions = [
+documents_extensions = tuple([
     '.pdf', '.doc', '.excel', '.txt',
-]
+])
 
-music_extensions = ['.mp3', '.mp4', '.wav', '.aac']
+music_extensions = tuple(['.mp3', '.mp4', '.wav', '.aac'])
 
-archive_extensions = ['.rar', '.zip']
+archive_extensions = tuple(['.rar', '.zip'])
