@@ -1,2 +1,2 @@
 #Run command 
-python3 sort.py pathtofolder       
+`python3 sort.py pathtofolder`
