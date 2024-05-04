@@ -13,7 +13,8 @@ image_extensions = tuple([
     '.pbm', '.pgm', '.ppm',                             # PBM, PGM, PPM
     '.pnm', '.sr', '.ras', '.jp2', '.j2k', '.jpf',      # PNM, SR, RAS, JP2, J2K, JPF
     '.jpx', '.jpm', '.mj2',                             # JPX, JPM, MJ2
-    '.heic', '.heif'                                    # HEIC, HEIF
+    '.heic', '.heif',                                   # HEIC, HEIF
+    '.avif'
 ])
 
 documents_extensions = tuple([
