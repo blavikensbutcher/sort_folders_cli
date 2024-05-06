@@ -9,5 +9,10 @@ setup(
     author_email="luckertheory@gmail.com",
     license="MIT",
     packages=['sort_folders_cli'],
-    long_description="Some long text"
+    long_description="Some long text",
+    entry_points={
+        'console_scripts': [
+            'sort_all_files = sort_files:sort_all_files',
+        ]
+    }
 )
